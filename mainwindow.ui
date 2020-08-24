@@ -27,7 +27,7 @@
      <string>Custom widget below</string>
     </property>
    </widget>
-   <widget class="MyCustomWidget" name="widget" native="true">
+   <widget class="MyCustomWidget" name="customWidget" native="true">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -164,6 +164,19 @@
     </property>
     <property name="text">
      <string>MyCustomWidget will be shown below:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSignalWidget">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>20</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Signal Widget</string>
     </property>
    </widget>
   </widget>

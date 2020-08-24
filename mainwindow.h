@@ -15,6 +15,12 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_btnSignalWidget_clicked();
+
+signals:
+    void SignalCustomWidget();
+
 private:
     Ui::MainWindow *ui;
 };

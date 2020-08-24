@@ -15,7 +15,7 @@ public:
     explicit MyCustomWidget(QWidget *parent = 0);
     ~MyCustomWidget();
 
-private slots:
+public slots:
     void on_pushButton_clicked();
 
 private:
